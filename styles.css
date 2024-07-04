@@ -1,0 +1,58 @@
+/* styles.css */
+body {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #333; /* Color de texto */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+}
+
+.encuesta-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center; /* Alineación central del texto */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+.header img {
+    width: 50px; /* Ajusta el ancho según sea necesario */
+    vertical-align: middle; /* Alinea verticalmente la imagen */
+}
+
+.header h1 {
+    display: inline-block; /* Permite alinear verticalmente */
+    vertical-align: middle; /* Alinea verticalmente el título */
+    color: #4b0082; /* Morado oscuro */
+}
+
+.pregunta {
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #4b0082; /* Morado oscuro */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6a5acd; /* Morado medio */
+}
+
+#resultado {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4b0082; /* Morado oscuro */
+}
